@@ -58,6 +58,6 @@ target.insertAdjacentElement("afterend", newP2)
 for (div of document.querySelectorAll("div.fn-insert-here")) {
     console.log(div, newP2);
     let thisP = document.createElement("p")
-    thisP.appendChild(document.createTextNode("Voy en medio!"))
+    thisP.appendChild(document.createTextNode("Voy dentro!"))
     div.appendChild(thisP)
 }
